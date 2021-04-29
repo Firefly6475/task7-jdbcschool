@@ -1,0 +1,10 @@
+Math
+Biology
+Physics
+Chemistry
+History
+English
+Arts
+Economics
+Geography
+Literature
