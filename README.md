@@ -16,15 +16,15 @@ Use PostgreSQL DB.
 
 	b. Generate test data:
 
-		* 10 groups with randomly generated names. The name should contain 2 characters, hyphen, 2 numbers
+	1. 10 groups with randomly generated names. The name should contain 2 characters, hyphen, 2 numbers
 
-		* Create 10 courses (math, biology, etc)
+	2. Create 10 courses (math, biology, etc)
 
-		* 200 students. Take 20 first names and 20 last names and randomly combine them to generate students.
+	3. 200 students. Take 20 first names and 20 last names and randomly combine them to generate students.
 
-		* Randomly assign students to groups. Each group could contain from 10 to 30 students. It is possible that some groups will be without students or students without groups
+	4. Randomly assign students to groups. Each group could contain from 10 to 30 students. It is possible that some groups will be without students or students without groups
 
-		* Create relation MANY-TO-MANY between tables STUDENTS and COURSES. Randomly assign from 1 to 3 courses for each student
+	5. Create relation MANY-TO-MANY between tables STUDENTS and COURSES. Randomly assign from 1 to 3 courses for each student
 
 3. SQL Queries from the application menu:
 
